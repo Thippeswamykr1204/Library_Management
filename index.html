@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Library Management</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="library.css"/>
+</head>
+<body>
+  <div class="library-container d-flex flex-column justify-content-center">
+    <h1 class="library-title">Library Management</h1>
+    <div class="d-flex justify-content-center">
+    <input type="search" id="searchInput" placeholder="Search book title..." class="form-control mb-3" />
+    </div>
+    <div id="spinner" class="text-center d-none">
+      <div class="spinner-border text-light" role="status"></div>
+    </div>
+    <div id="searchResults" class="search-results mt-4 d-none"></div>
+  </div>
+  <script src="library.js"></script>
+</body>
+</html>

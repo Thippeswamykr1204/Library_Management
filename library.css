@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.library-container {
+  background-image: url("https://wallpaperbat.com/img/374685-free-download-old-library-wallpaper-wall-decor-1500x1000.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.library-title {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.form-control{
+  height: 40px;
+  width: 40%;
+}
+
+.search-results {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  color: #323f4b;
+}
+
+.book-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.book-item img {
+  height: 200px;
+  width: auto;
+  margin-right: 15px;
+}
