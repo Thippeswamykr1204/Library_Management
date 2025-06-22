@@ -2,7 +2,6 @@ const searchInputEl = document.getElementById("searchInput");
 const searchResultsEl = document.getElementById("searchResults");
 const spinnerEl = document.getElementById("spinner");
 
-// Function to create and append each book result
 function createAndAppendResult(book) {
   const bookItem = document.createElement("div");
   bookItem.classList.add("book-item");
@@ -37,7 +36,6 @@ function createAndAppendResult(book) {
   searchResultsEl.appendChild(bookItem);
 }
 
-// Function to fetch and render books from Google Books API
 function fetchBooks(query) {
   spinnerEl.classList.remove("d-none");
   searchResultsEl.classList.add("d-none");
@@ -80,7 +78,6 @@ function fetchBooks(query) {
     });
 }
 
-// Trigger fetch on Enter key press
 searchInputEl.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     const query = searchInputEl.value.trim();
